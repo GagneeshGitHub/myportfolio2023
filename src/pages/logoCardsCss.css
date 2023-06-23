@@ -1,0 +1,60 @@
+.cards:hover #jsLogo{
+    color: rgb(255, 175, 71);
+}
+
+.cards:hover #rjsLogo{
+    color: rgb(67, 194, 245);
+}
+
+.cards:hover #njsLogo{
+    color: greenyellow;
+}
+
+.cards:hover #ejsLogo{
+    color: grey;
+}
+
+.cards:hover #phpLogo{
+    color: rgb(67, 97, 109);
+}
+
+.cards:hover #hlLogo{
+    color: orangered;
+}
+
+.cards:hover #cssLogo{
+    color: aqua;
+}
+
+.cards:hover #wpLogo{
+    color: skyblue;
+}
+
+.cards:hover #djLogo{
+    color: rgb(1, 31, 1);
+}
+
+.cards:hover #jvLogo{
+    color: rgb(163, 0, 0);
+}
+
+.cards:hover #blLogo{
+    color: orangered;
+}
+
+.cards:hover #gdLogo{
+    color: rgb(72, 151, 182);
+}
+
+.cards:hover #pyLogo{
+    color: rgb(34, 89, 110);
+}
+
+/* MySkill heading */
+.mySkillHeading{
+    color: rgb(12,12,12);
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0%;
+    margin-top: 20px;
+}

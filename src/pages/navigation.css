@@ -1,0 +1,61 @@
+.navDiv{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+}
+
+.innNavDiv{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.leftInnDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.rightInnDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Class for buttons */
+.btnRight{
+    /* width: 30px; */
+    height: 30px;
+    border-radius: 6px;
+    background-color: white;
+    border: none;
+    color: #37424d;
+    transition-duration: 0.1s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btnRight:hover{
+    color: white;
+}
+
+/* Classes for left text */
+
+.leftText{
+    color: white;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+}
+
+.leftTextName{
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,72 @@
+.firstHeading{
+    color: #37424d;
+    margin-left: 50px;
+}
+
+.outMyWeb{
+    width: 100%;
+    height: 100%;
+}
+
+.innMyWeb{
+    width: 100%;
+}
+
+/* Classes for the project */
+
+.firstDone{
+    width: 100%;
+    height: auto;
+    background-color: rgb(12,12,12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.firstDoneDet{
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid rgb(12,12,12);
+}
+
+/* #4D4237 */
+.firstDoneDet h1{
+    color: rgb(12,12,12);
+}
+
+.innDoneSec{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 40px;
+    color: rgb(12,12,12);
+    overflow: scroll;
+    padding-bottom: 20px;
+}
+
+.innDoneSec p{
+    margin-left: 20px;
+}
+
+.projectImage{
+    width: 300px;
+}
+
+.visitLink{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 900;
+    color: rgb(94, 0, 0);
+    margin-left: 20px;
+}
+
+/* Class for three image */
+
+.threeImg{
+    width: 700px;
+    margin-left: 5%;
+    margin-right: 5%;
+}

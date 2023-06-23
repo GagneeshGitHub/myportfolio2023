@@ -1,0 +1,209 @@
+.homepageClass{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.innerHomeClass{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+/* Left and right division of the first section */
+.innHomeLeftDiv{
+    width: 50%;
+    height: 100%;
+}
+
+.innHLDText{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 30px;
+    animation-name: moveRight;
+    animation-duration: 4s;
+}
+
+
+/* Animation for the class */
+
+@keyframes moveRight{
+    /* from {
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    } */
+
+    0% {
+        opacity: 0;
+        transform: translateX(-200%);
+    }
+
+    70% {
+        opacity: 0.2;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.firstPara{
+    color: #37424d;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0%;
+    background-color: aliceblue;
+}
+
+.nameIPara{
+    color: #1c2835;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0%;
+}
+
+.secondPara{
+    color: #0b0b0c;
+    font-size: 30px;
+    font-weight:800;
+    display: flex;
+    align-items: center;
+}
+
+.webDevText{
+    color: rgb(250, 86, 86);
+    margin-left: 10px;
+}
+
+/* Class for right section */
+.innHomeRightDiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid ;
+    animation-name: moveProfile;
+    animation-duration: 3s;
+}
+
+/* Animation for profile image */
+
+@keyframes moveProfile{
+    from { 
+        transform: translate(200%,-200%) rotate(-45deg);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0%,0%) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+.profileImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.topskillclass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(12, 12, 12);
+}
+
+.theGapDiv{
+    height: 20px;
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+}
+
+.innSkillClass{
+    background-color: white;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillCards{
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.cards{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: auto;
+    grid-column: auto;
+    flex-direction: column;
+    transition-duration: 0.5s;
+    border: 2px solid black;
+}
+
+/* Animation for cards */
+
+@keyframes movingCards{
+
+
+    0% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(10%);
+    }
+
+    100%{
+        transform: translateY(-10%);
+    }
+}
+
+
+.cards:hover{
+    scale: 1.3;
+    animation-name: movingCards;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.cardLogo{
+    width: 90px;
+    height: 90px;
+}
+
+.logoHeading{
+    transition-duration: 0.5s;
+}
