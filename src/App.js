@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Homepage from "./pages/Homepage";
 import Navigation from "./pages/Navigation";
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { BrowserRouter,Routes,Route,HashRouter } from "react-router-dom";
 import Mywebsitespage from './pages/Mywebsitespage'
 import Educationpage from './pages/Educationpage'
 import Myskillpage from './pages/Myskillpage'
@@ -10,7 +10,7 @@ import Contactpage from './pages/Contactpage'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="outerScreenDiv">
         <Navigation />
         <Routes>
@@ -21,7 +21,7 @@ function App() {
           <Route path="/conatct" element={<Contactpage/>}/>
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
